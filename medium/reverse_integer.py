@@ -14,6 +14,9 @@ def reverse(x):
     else:
         return res
 
+mxStr =  '2147483647'
+temp = str(abs(x))[::-1]
+temp_str = ''.join(temp).rjust(10, '0')
 
 print(reverse(123))
 print(reverse(-123))
